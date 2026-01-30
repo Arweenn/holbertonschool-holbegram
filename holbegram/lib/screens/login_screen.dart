@@ -120,7 +120,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       borderRadius: BorderRadius.circular(5),
                     ),
                   ),
-                  onPressed: _handleLogin, // 🔴 appel de la fonction login
+                  onPressed: _handleLogin, 
                   child: const Text(
                     'Log in',
                     style: TextStyle(
